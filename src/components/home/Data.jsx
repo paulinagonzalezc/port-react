@@ -60,6 +60,7 @@ const Data = () => {
         I'm a front-end developer based in Vancouver, and I'm very passionate
         and dedicated to my work.
       </p>
+
       <a href="#contact" className="button button--flex">
         Say Hello
         <svg
