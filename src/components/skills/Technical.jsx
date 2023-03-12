@@ -1,9 +1,9 @@
 import React from 'react';
 
-const Frontend = () => {
+const Backend = () => {
   return (
     <div className="skills__content">
-      <h3 className="skills__title">Front-end</h3>
+      <h3 className="skills__title">Technical</h3>
 
       <div className="skills__box">
         <div className="skills__group">
@@ -11,7 +11,7 @@ const Frontend = () => {
             <i className="bx bx-badge-check"></i>
 
             <div>
-              <h3 className="skills__name">JavaScript</h3>
+              <h3 className="skills__name">GIT</h3>
               <span className="skills__level">Intermediate</span>
             </div>
           </div>
@@ -20,8 +20,8 @@ const Frontend = () => {
             <i className="bx bx-badge-check"></i>
 
             <div>
-              <h3 className="skills__name">CSS</h3>
-              <span className="skills__level">Advanced</span>
+              <h3 className="skills__name">ESLint</h3>
+              <span className="skills__level">Basic</span>
             </div>
           </div>
 
@@ -29,8 +29,8 @@ const Frontend = () => {
             <i className="bx bx-badge-check"></i>
 
             <div>
-              <h3 className="skills__name">HTML</h3>
-              <span className="skills__level">Advanced</span>
+              <h3 className="skills__name">Stylelint</h3>
+              <span className="skills__level">Basic</span>
             </div>
           </div>
         </div>
@@ -40,7 +40,7 @@ const Frontend = () => {
             <i className="bx bx-badge-check"></i>
 
             <div>
-              <h3 className="skills__name">React</h3>
+              <h3 className="skills__name">Jest</h3>
               <span className="skills__level">Intermediate</span>
             </div>
           </div>
@@ -49,8 +49,8 @@ const Frontend = () => {
             <i className="bx bx-badge-check"></i>
 
             <div>
-              <h3 className="skills__name">Redux</h3>
-              <span className="skills__level">Intermadiate</span>
+              <h3 className="skills__name">NPM</h3>
+              <span className="skills__level">Intermediate</span>
             </div>
           </div>
 
@@ -58,8 +58,8 @@ const Frontend = () => {
             <i className="bx bx-badge-check"></i>
 
             <div>
-              <h3 className="skills__name">Bootstrap</h3>
-              <span className="skills__level">Intermadiate</span>
+              <h3 className="skills__name">Webpack</h3>
+              <span className="skills__level">Basic</span>
             </div>
           </div>
         </div>
@@ -68,4 +68,4 @@ const Frontend = () => {
   );
 };
 
-export default Frontend;
+export default Backend;

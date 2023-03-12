@@ -86,12 +86,14 @@ const Qualification = () => {
 
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Web Development</h3>
+                <h3 className="qualification__title">
+                  Bachelor's in Industrial and Systems Engineering
+                </h3>
                 <span className="qualification__subtitle">
-                  Spain - Institute
+                  Monterrey, MX - Universidad de Monterrey
                 </span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i> 2018 - 2020
+                  <i className="uil uil-calendar-alt"></i> 2015 - 2020
                 </div>
               </div>
 
