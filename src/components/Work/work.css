@@ -16,7 +16,7 @@
 }
 
 .work__item:hover {
-  background-color: var(--title-color);
+  background-color: lightblue;
   color: var(--container-color);
 }
 
@@ -64,7 +64,7 @@
 
 /* active work */
 .active-work {
-  background-color: var(--title-color);
+  background-color: lightblue;
   color: var(--container-color);
 }
 

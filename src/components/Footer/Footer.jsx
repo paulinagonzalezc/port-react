@@ -20,16 +20,16 @@ const Footer = () => {
             </a>
           </li>
 
-          <li>
+          {/* <li>
             <a href="#testimonials" className="footer__link">
               Testimonials
             </a>
-          </li>
+          </li> */}
         </ul>
 
         <div className="footer__social">
           <a
-            href="https://www.twitter.com"
+            href="https://www.twitter.com/paulinagzzc"
             className="footer__social-link"
             target="_blank"
             rel="noreferrer"
@@ -37,7 +37,7 @@ const Footer = () => {
             <i className="bx bxl-twitter"></i>
           </a>
           <a
-            href="https://linkedin.com/"
+            href="https://www.linkedin.com/in/paulina-gonzalez-cantu/"
             className="footer__social-link"
             target="_blank"
             rel="noreferrer"
@@ -45,7 +45,7 @@ const Footer = () => {
             <i className="bx bxl-linkedin"></i>
           </a>
           <a
-            href="https://github.com/"
+            href="https://github.com/paulinagonzalezc"
             className="footer__social-link"
             target="_blank"
             rel="noreferrer"

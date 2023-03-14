@@ -1,39 +1,58 @@
-import Work1 from '../../assets/work1.jpg';
-import Work2 from '../../assets/work2.jpg';
-import Work3 from '../../assets/work3.jpg';
-import Work4 from '../../assets/work4.jpg';
 import Work5 from '../../assets/work5.jpg';
+import Weather from '../../assets/weather-app-image.png';
+import Dictionary from '../../assets/dictionary-screenshot.png';
+import Covid from '../../assets/covid-react.png';
+import Space from '../../assets/space-react.png';
+import Todo from '../../assets/todo-react.png';
 
 export const projectsData = [
   {
     id: 1,
-    image: Work1,
-    title: 'Web Design',
-    category: 'web',
+    image: Weather,
+    title: 'Weather App',
+    category: 'React',
+    demo: 'https://weatherreact-paulina.netlify.app/',
+    repo: 'https://github.com/paulinagonzalezc/weather-react-app',
   },
   {
     id: 2,
-    image: Work2,
-    title: 'App movil',
-    category: 'app',
+    image: Dictionary,
+    title: 'Dictionary App',
+    category: 'React',
+    demo: 'https://dictionaryreact-paulina.netlify.app/',
+    repo: 'https://github.com/paulinagonzalezc/dictionary-react',
   },
   {
     id: 3,
-    image: Work3,
-    title: 'Brand design',
-    category: 'design',
+    image: Covid,
+    title: 'COVID-19 Tracker App',
+    category: 'React',
+    demo: 'https://covid-tracker-react.onrender.com/',
+    repo: 'https://github.com/paulinagonzalezc/covid-tracker-react',
   },
   {
     id: 4,
-    image: Work4,
-    title: 'App movil',
-    category: 'app',
+    image: Space,
+    title: 'Spaceships SpaceX App',
+    category: 'React',
+    demo: 'https://space-travelers-hub-oo7r.onrender.com/',
+    repo: 'https://github.com/paulinagonzalezc/space-travelers-react',
   },
   {
     id: 5,
+    image: Todo,
+    title: 'To-do App',
+    category: 'React',
+    demo: 'https://paulinagonzalezc.github.io/react-to-do/',
+    repo: 'https://github.com/paulinagonzalezc/react-to-do',
+  },
+  {
+    id: 6,
     image: Work5,
-    title: 'Web Design',
-    category: 'web',
+    title: 'Blog App',
+    category: 'Ruby on Rails',
+    demo: 'https://paulinagonzalezc.github.io/react-to-do/',
+    repo: 'https://github.com/paulinagonzalezc/blog-app-rails',
   },
 ];
 
@@ -42,12 +61,12 @@ export const projectsNav = [
     name: 'all',
   },
   {
-    name: 'web',
+    name: 'React',
   },
   {
-    name: 'app',
+    name: 'Ruby on Rails',
   },
   {
-    name: 'design',
+    name: 'Design',
   },
 ];
