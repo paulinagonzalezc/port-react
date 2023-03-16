@@ -11,7 +11,7 @@
   - [Tech Stack](#tech-stack)
   - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
-- [💻 Getting Started](#getting-started)
+  - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
   - [Install](#install)
@@ -38,8 +38,6 @@ My personal portfolio app where I showcase the development projects I have made.
     <li><a href="https://reactjs.org/">React</a></li>
   </ul>
 </details>
-
-<details>
 
 ### Key Features <a name="key-features"></a>
 
