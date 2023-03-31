@@ -1,9 +1,9 @@
-import Work5 from '../../assets/work5.jpg';
 import Weather from '../../assets/weather-app-image.png';
 import Dictionary from '../../assets/dictionary-screenshot.png';
 import Covid from '../../assets/covid-react.png';
 import Space from '../../assets/space-react.png';
 import Todo from '../../assets/todo-react.png';
+import Budget from '../../assets/rails-budget.png';
 
 export const projectsData = [
   {
@@ -48,11 +48,11 @@ export const projectsData = [
   },
   {
     id: 6,
-    image: Work5,
-    title: 'Blog App',
+    image: Budget,
+    title: 'Budget App',
     category: 'Ruby on Rails',
-    demo: 'https://paulinagonzalezc.github.io/react-to-do/',
-    repo: 'https://github.com/paulinagonzalezc/blog-app-rails',
+    demo: 'https://rails-kbsp.onrender.com/',
+    repo: 'https://github.com/paulinagonzalezc/budget-app-rails',
   },
 ];
 
