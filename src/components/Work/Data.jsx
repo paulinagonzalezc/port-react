@@ -4,6 +4,8 @@ import Covid from '../../assets/covid-react.png';
 import Space from '../../assets/space-react.png';
 import Todo from '../../assets/todo-react.png';
 import Budget from '../../assets/rails-budget.png';
+import Book2 from '../../assets/book-doctors.png';
+import Book1 from '../../assets/book-doctors2.png';
 
 export const projectsData = [
   {
@@ -53,6 +55,22 @@ export const projectsData = [
     category: 'Ruby on Rails',
     demo: 'https://rails-kbsp.onrender.com/',
     repo: 'https://github.com/paulinagonzalezc/budget-app-rails',
+  },
+  {
+    id: 7,
+    image: Book1,
+    title: 'Book Appointments API',
+    category: 'Ruby on Rails',
+    demo: 'http://159.223.131.191:3000/',
+    repo: 'https://github.com/paulinagonzalezc/book-an-appointment-back-end',
+  },
+  {
+    id: 8,
+    image: Book2,
+    title: 'Book Appointments Front',
+    category: 'React',
+    demo: 'http://162.243.166.190/',
+    repo: 'https://github.com/paulinagonzalezc/book-an-appointment',
   },
 ];
 
