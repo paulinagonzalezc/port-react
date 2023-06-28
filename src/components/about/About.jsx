@@ -1,6 +1,6 @@
 import React from 'react';
 import './about.css';
-import CV from '../../assets/Resume Paulina Gonzalez .pdf';
+import CV from '../../assets/Resume Paulina Gonzalez Cantu.pdf';
 import Info from './Info';
 
 const About = () => {
@@ -15,7 +15,12 @@ const About = () => {
           <Info />
 
           <p className="about__description">
-            I can help you build a product , feature or website Look through
+            I have experience building web applications using technologies such
+            as React, Redux, Ruby, Ruby on Rails, and PostgreSQL, among others.
+          </p>
+
+          <p className="about__description">
+            I can help you build a product , feature or website. Look through
             some of my work and experience! If you like what you see and have a
             project you need coded, don’t hestiate to contact me.
           </p>
