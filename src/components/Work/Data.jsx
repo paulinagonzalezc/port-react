@@ -3,9 +3,7 @@ import Dictionary from '../../assets/dictionary-screenshot.png';
 import Covid from '../../assets/covid-react.png';
 import Space from '../../assets/space-react.png';
 import Todo from '../../assets/todo-react.png';
-import Budget from '../../assets/rails-budget.png';
-import Book2 from '../../assets/book-doctors.png';
-import Book1 from '../../assets/book-doctors2.png';
+import Budget from '../../assets/rails-budget-app.png';
 
 export const projectsData = [
   {
@@ -13,6 +11,8 @@ export const projectsData = [
     image: Weather,
     title: 'Weather App',
     category: 'React',
+    description:
+      'A weather app designed to show the current weather and forecast of a city. Users can use the search bar to look for a city.',
     demo: 'https://weatherreact-paulina.netlify.app/',
     repo: 'https://github.com/paulinagonzalezc/weather-react-app',
   },
@@ -21,6 +21,8 @@ export const projectsData = [
     image: Dictionary,
     title: 'Dictionary App',
     category: 'React',
+    description:
+      'Users can search for a word and get definitions, synonyms, hear the pronunciation, see how it is used in a sentence and see illustrations.',
     demo: 'https://dictionaryreact-paulina.netlify.app/',
     repo: 'https://github.com/paulinagonzalezc/dictionary-react',
   },
@@ -29,6 +31,8 @@ export const projectsData = [
     image: Covid,
     title: 'COVID-19 Tracker App',
     category: 'React',
+    description:
+      'A web application that provides realtime data about COVID-19 cases worldwide using the disease.sh COVID-19 API.',
     demo: 'https://covid-tracker-react.onrender.com/',
     repo: 'https://github.com/paulinagonzalezc/covid-tracker-react',
   },
@@ -37,6 +41,8 @@ export const projectsData = [
     image: Space,
     title: 'Spaceships SpaceX App',
     category: 'React',
+    description:
+      'An application that shows and allows users to book rockets and join selected space missions. It works with real live data from the SpaceX API.',
     demo: 'https://space-travelers-hub-oo7r.onrender.com/',
     repo: 'https://github.com/paulinagonzalezc/space-travelers-react',
   },
@@ -45,6 +51,8 @@ export const projectsData = [
     image: Todo,
     title: 'To-do App',
     category: 'React',
+    description:
+      'A classic to do app, users can add, save, delete and mark as complete to do tasks.',
     demo: 'https://paulinagonzalezc.github.io/react-to-do/',
     repo: 'https://github.com/paulinagonzalezc/react-to-do',
   },
@@ -53,24 +61,10 @@ export const projectsData = [
     image: Budget,
     title: 'Budget App',
     category: 'Ruby on Rails',
+    description:
+      'A web application where you can manage your budget: you have a list of transactions associated with a category so that you can see how much money you have spent and on what exactly.',
     demo: 'https://rails-kbsp.onrender.com/',
     repo: 'https://github.com/paulinagonzalezc/budget-app-rails',
-  },
-  {
-    id: 7,
-    image: Book1,
-    title: 'Book Appointments API',
-    category: 'Ruby on Rails',
-    demo: 'http://159.223.131.191:3000/',
-    repo: 'https://github.com/paulinagonzalezc/book-an-appointment-back-end',
-  },
-  {
-    id: 8,
-    image: Book2,
-    title: 'Book Appointments Front',
-    category: 'React',
-    demo: 'http://162.243.166.190/',
-    repo: 'https://github.com/paulinagonzalezc/book-an-appointment',
   },
 ];
 
