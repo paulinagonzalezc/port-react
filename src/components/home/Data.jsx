@@ -57,7 +57,7 @@ const Data = () => {
       </h1>
       <h3 className="home__subtitle">Software Developer</h3>
       <p className="home__description">
-        I'm a front-end developer based in Monterrey, Mexico, and I'm very
+        I'm a full-stack developer based in Victoria, Canada, and I'm very
         passionate and dedicated to my work.
       </p>
 
