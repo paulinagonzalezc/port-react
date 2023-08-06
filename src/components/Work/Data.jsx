@@ -1,9 +1,11 @@
 import Weather from '../../assets/weather-app-image.png';
-import Dictionary from '../../assets/dictionary-screenshot.png';
+import Dictionary from '../../assets/dictionary-app.png';
 import Covid from '../../assets/covid-react.png';
 import Space from '../../assets/space-react.png';
 import Todo from '../../assets/todo-react.png';
 import Budget from '../../assets/rails-budget-app.png';
+import BookingBack from '../../assets/booking-api.png';
+import BookingFront from '../../assets/book-doctors.png';
 
 export const projectsData = [
   {
@@ -65,6 +67,26 @@ export const projectsData = [
       'A web application where you can manage your budget: you have a list of transactions associated with a category so that you can see how much money you have spent and on what exactly.',
     demo: 'https://rails-kbsp.onrender.com/',
     repo: 'https://github.com/paulinagonzalezc/budget-app-rails',
+  },
+  {
+    id: 7,
+    image: BookingBack,
+    title: 'Booking App API',
+    category: 'Ruby on Rails',
+    description:
+      'The back-end of an app to book an appointment with a doctor specialized in your needs. The user can reserve and cancel appointments.',
+    demo: 'http://159.223.131.191:3000/',
+    repo: 'https://github.com/paulinagonzalezc/book-an-appointment-back-end',
+  },
+  {
+    id: 8,
+    image: BookingFront,
+    title: 'Booking App Front',
+    category: 'React',
+    description:
+      'The front-end of an app to book an appointment with a doctor specialized in your needs. The user can reserve and cancel appointments.',
+    demo: 'http://162.243.166.190/',
+    repo: 'https://github.com/paulinagonzalezc/book-an-appointment',
   },
 ];
 
