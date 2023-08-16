@@ -1,6 +1,6 @@
 import React from 'react';
 import './about.css';
-import CV from '../../assets/Resume Paulina Gonzalez Cantu.pdf';
+import CV from '../../assets/Resume Paulina Gonzalez.pdf';
 import Info from './Info';
 
 const About = () => {
