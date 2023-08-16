@@ -6,6 +6,7 @@ import Todo from '../../assets/todo-react.png';
 import Budget from '../../assets/rails-budget-app.png';
 import BookingBack from '../../assets/booking-api.png';
 import BookingFront from '../../assets/book-doctors.png';
+import AINews from '../../assets/alan-ai.png';
 
 export const projectsData = [
   {
@@ -87,6 +88,16 @@ export const projectsData = [
       'The front-end of an app to book an appointment with a doctor specialized in your needs. The user can reserve and cancel appointments.',
     demo: 'http://162.243.166.190/',
     repo: 'https://github.com/paulinagonzalezc/book-an-appointment',
+  },
+  {
+    id: 9,
+    image: AINews,
+    title: 'AI News App',
+    category: 'React',
+    description:
+      'An Artificial Intelligence React News Application using Alan AI. Alan AI is a revolutionary speech recognition software that allows you to add voice capabilities to your applications. It allows you to control the app using your voice. The App also uses News API to get the news to the front end.',
+    demo: 'https://news-ai-3m0o.onrender.com/',
+    repo: 'https://github.com/paulinagonzalezc/news_ai',
   },
 ];
 
