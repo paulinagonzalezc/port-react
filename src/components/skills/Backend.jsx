@@ -11,16 +11,7 @@ const Backend = () => {
             <i className="bx bx-badge-check"></i>
 
             <div>
-              <h3 className="skills__name">RoR</h3>
-              <span className="skills__level">Intermediate</span>
-            </div>
-          </div>
-
-          <div className="skills__data">
-            <i className="bx bx-badge-check"></i>
-
-            <div>
-              <h3 className="skills__name">Ruby</h3>
+              <h3 className="skills__name">Ruby/Ruby on Rails</h3>
               <span className="skills__level">Intermediate</span>
             </div>
           </div>
@@ -30,6 +21,15 @@ const Backend = () => {
 
             <div>
               <h3 className="skills__name">Python</h3>
+              <span className="skills__level">Intermediate</span>
+            </div>
+          </div>
+
+          <div className="skills__data">
+            <i className="bx bx-badge-check"></i>
+
+            <div>
+              <h3 className="skills__name">Pandas, Numpy</h3>
               <span className="skills__level">Intermediate</span>
             </div>
           </div>
@@ -49,7 +49,7 @@ const Backend = () => {
             <i className="bx bx-badge-check"></i>
 
             <div>
-              <h3 className="skills__name">SQL</h3>
+              <h3 className="skills__name">MySQL</h3>
               <span className="skills__level">Intermediate</span>
             </div>
           </div>
@@ -58,7 +58,7 @@ const Backend = () => {
             <i className="bx bx-badge-check"></i>
 
             <div>
-              <h3 className="skills__name">RSpec</h3>
+              <h3 className="skills__name">Matlab</h3>
               <span className="skills__level">Intermediate</span>
             </div>
           </div>
