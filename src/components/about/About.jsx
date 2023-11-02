@@ -16,8 +16,8 @@ const About = () => {
 
           <p className="about__description">
             I have experience building web applications using technologies such
-            as React, Redux, Ruby, Ruby on Rails, SQL, and PostgreSQL, among
-            others.
+            as React, Redux, Ruby, Ruby on Rails, Python, MySQL, and PostgreSQL,
+            among others.
           </p>
 
           <p className="about__description">
