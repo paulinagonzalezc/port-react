@@ -18,7 +18,7 @@ const Services = () => {
           <div>
             <i className="uil uil-web-grid services__icon"></i>
             <h3 className="services__title">
-              User <br /> Interface
+              Data <br /> Science
             </h3>
           </div>
 
@@ -40,39 +40,52 @@ const Services = () => {
                 className="uil uil-times services__modal-close"
               ></i>
 
-              <h3 className="services__modal-title">User Interface</h3>
+              <h3 className="services__modal-title">Data Science</h3>
               <p className="services__modal-description">
-                I specialize in creating beautiful and user-friendly interfaces
-                for web applications and websites
+                I specialize in leveraging data science to derive meaningful
+                insights and inform decision-making processes. My expertise
+                encompasses a broad range of areas within this field:
               </p>
 
               <ul className="services__modal-services grid">
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">UI design</p>
-                </li>
-
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">UX research and design</p>
-                </li>
-
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Prototyping and wireframing
+                    Data Analysis and Visualization: Utilizing tools like Python
+                    (NumPy, Seaborn, Matplotlib) for robust data analysis and
+                    creating compelling visualizations.
                   </p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">Responsive design</p>
+                  <p className="services__modal-info">
+                    Machine Learning: Developing predictive models and
+                    algorithms to analyze trends and patterns in large datasets.
+                  </p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Accessibility design and implementation
+                    Natural Language Processing: Applying NLTK for text analysis
+                    and language-driven data insights.
+                  </p>
+                </li>
+
+                <li className="services__modal-service">
+                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  <p className="services__modal-info">
+                    Statistical Analysis: Employing statistical methods to
+                    interpret data and derive conclusions.
+                  </p>
+                </li>
+
+                <li className="services__modal-service">
+                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  <p className="services__modal-info">
+                    Data Wrangling: Transforming and manipulating large data
+                    sets to make them suitable for analysis.
                   </p>
                 </li>
               </ul>

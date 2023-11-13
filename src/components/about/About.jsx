@@ -21,6 +21,12 @@ const About = () => {
           </p>
 
           <p className="about__description">
+            Additionally, I'm versed in data science and possess hands-on
+            experience with Python libraries like NumPy, Seaborn, Matplotlib,
+            NLTK, and more for comprehensive data analysis.
+          </p>
+
+          <p className="about__description">
             I can help you build a product, feature or website. Look through
             some of my work and experience! If you like what you see and have a
             project you need coded, don’t hestiate to contact me.
