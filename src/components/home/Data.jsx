@@ -55,10 +55,10 @@ const Data = () => {
           ></path>
         </svg>
       </h1>
-      <h3 className="home__subtitle">Software Developer</h3>
+      <h3 className="home__subtitle">Data Scientist</h3>
       <p className="home__description">
-        I'm a full-stack developer based in Victoria, Canada, and I'm very
-        passionate and dedicated to my work.
+        Hey there! I'm a data scientist - software engineer based in Victoria,
+        Canada, and I'm very passionate and dedicated to my work.
       </p>
 
       <a href="#contact" className="button button--flex">

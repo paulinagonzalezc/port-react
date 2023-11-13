@@ -7,10 +7,40 @@ import Budget from '../../assets/rails-budget-app.png';
 import BookingBack from '../../assets/booking-api.png';
 import BookingFront from '../../assets/book-doctors.png';
 import AINews from '../../assets/alan-ai.png';
+import Sentiment from '../../assets/Sentiment Analysis.png';
+import Wrangling from '../../assets/data-wrangling.png';
 
 export const projectsData = [
   {
+    id: 0,
+    image: AINews,
+    title: 'AI News App',
+    category: 'Data Science',
+    description:
+      'An Artificial Intelligence React News Application using Alan AI. Alan AI is a revolutionary speech recognition software that allows you to add voice capabilities to your applications. It allows you to control the app using your voice. The App also uses News API to get the news to the front end.',
+    demo: 'https://news-ai-3m0o.onrender.com/',
+    repo: 'https://github.com/paulinagonzalezc/news_ai',
+  },
+  {
     id: 1,
+    image: Sentiment,
+    title: 'Sentiment Analysis',
+    category: 'Data Science',
+    description:
+      'Sentiment analysis in python using: VADER and Roberta. With a dataset that consists of ~500,000 reviews of fine foods from amazon ',
+    repo: 'https://github.com/paulinagonzalezc/sentiment_analysis_python',
+  },
+  {
+    id: 2,
+    image: Wrangling,
+    title: 'Data Wrangling - Hospital DB',
+    category: 'Data Science',
+    description:
+      'Enabled the first step of multiple imputation: using a combination of SQL and python/pandas to probabilistically impute the missing data from a Hospital DB',
+    repo: 'https://github.com/paulinagonzalezc/multiple-imputation',
+  },
+  {
+    id: 3,
     image: Weather,
     title: 'Weather App',
     category: 'React',
@@ -20,7 +50,7 @@ export const projectsData = [
     repo: 'https://github.com/paulinagonzalezc/weather-react-app',
   },
   {
-    id: 2,
+    id: 4,
     image: Dictionary,
     title: 'Dictionary App',
     category: 'React',
@@ -30,7 +60,7 @@ export const projectsData = [
     repo: 'https://github.com/paulinagonzalezc/dictionary-react',
   },
   {
-    id: 3,
+    id: 5,
     image: Covid,
     title: 'COVID-19 Tracker App',
     category: 'React',
@@ -40,7 +70,7 @@ export const projectsData = [
     repo: 'https://github.com/paulinagonzalezc/covid-tracker-react',
   },
   {
-    id: 4,
+    id: 6,
     image: Space,
     title: 'Spaceships SpaceX App',
     category: 'React',
@@ -50,7 +80,7 @@ export const projectsData = [
     repo: 'https://github.com/paulinagonzalezc/space-travelers-react',
   },
   {
-    id: 5,
+    id: 7,
     image: Todo,
     title: 'To-do App',
     category: 'React',
@@ -60,7 +90,7 @@ export const projectsData = [
     repo: 'https://github.com/paulinagonzalezc/react-to-do',
   },
   {
-    id: 6,
+    id: 8,
     image: Budget,
     title: 'Budget App',
     category: 'Ruby on Rails',
@@ -70,7 +100,7 @@ export const projectsData = [
     repo: 'https://github.com/paulinagonzalezc/budget-app-rails',
   },
   {
-    id: 7,
+    id: 9,
     image: BookingBack,
     title: 'Booking App API',
     category: 'Ruby on Rails',
@@ -80,7 +110,7 @@ export const projectsData = [
     repo: 'https://github.com/paulinagonzalezc/book-an-appointment-back-end',
   },
   {
-    id: 8,
+    id: 10,
     image: BookingFront,
     title: 'Booking App Front',
     category: 'React',
@@ -89,16 +119,6 @@ export const projectsData = [
     demo: 'http://162.243.166.190/',
     repo: 'https://github.com/paulinagonzalezc/book-an-appointment',
   },
-  {
-    id: 9,
-    image: AINews,
-    title: 'AI News App',
-    category: 'React',
-    description:
-      'An Artificial Intelligence React News Application using Alan AI. Alan AI is a revolutionary speech recognition software that allows you to add voice capabilities to your applications. It allows you to control the app using your voice. The App also uses News API to get the news to the front end.',
-    demo: 'https://news-ai-3m0o.onrender.com/',
-    repo: 'https://github.com/paulinagonzalezc/news_ai',
-  },
 ];
 
 export const projectsNav = [
@@ -106,12 +126,12 @@ export const projectsNav = [
     name: 'all',
   },
   {
+    name: 'Data Science',
+  },
+  {
     name: 'React',
   },
   {
     name: 'Ruby on Rails',
-  },
-  {
-    name: 'Design',
   },
 ];
