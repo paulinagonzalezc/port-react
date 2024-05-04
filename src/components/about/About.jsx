@@ -13,17 +13,12 @@ const About = () => {
 
         <div className="about__data">
           <Info />
-
           <p className="about__description">
-            I have experience building web applications using technologies such
-            as React, Redux, Ruby, Ruby on Rails, Python, MySQL, and PostgreSQL,
-            among others.
-          </p>
-
-          <p className="about__description">
-            Additionally, I'm versed in data science and possess hands-on
-            experience with Python libraries like NumPy, Seaborn, Matplotlib,
-            NLTK, and more for comprehensive data analysis.
+            I'm versed in data science and possess hands-on experience with
+            Python libraries for comprehensive data analysis. Additionally, I
+            have experience building full-stack web applications using
+            technologies such as React, Redux, Ruby, Ruby on Rails, Python,
+            MySQL, and PostgreSQL, among others.
           </p>
 
           <p className="about__description">

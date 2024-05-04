@@ -6,7 +6,7 @@ import Technical from './Technical';
 
 const Skills = () => {
   return (
-    <section className="skills section" id="skills">
+    <section className="skills section skills_section" id="skills">
       <h2 className="section__title">Skills</h2>
       <span className="section__subtitle">My technical level</span>
 
