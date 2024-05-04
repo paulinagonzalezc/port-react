@@ -51,41 +51,26 @@ const Services = () => {
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Data Analysis and Visualization: Utilizing tools like Python
-                    (NumPy, Seaborn, Matplotlib) for robust data analysis and
-                    creating compelling visualizations.
+                    Predictive Modeling and Machine Learning
                   </p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Machine Learning: Developing predictive models and
-                    algorithms to analyze trends and patterns in large datasets.
+                    Data Mining and Pattern Recognition
                   </p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">
-                    Natural Language Processing: Applying NLTK for text analysis
-                    and language-driven data insights.
-                  </p>
+                  <p className="services__modal-info">Statistical Analysis</p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Statistical Analysis: Employing statistical methods to
-                    interpret data and derive conclusions.
-                  </p>
-                </li>
-
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">
-                    Data Wrangling: Transforming and manipulating large data
-                    sets to make them suitable for analysis.
+                    Data Visualization and Dashboard Development
                   </p>
                 </li>
               </ul>
@@ -97,7 +82,7 @@ const Services = () => {
           <div>
             <i className="uil uil-arrow services__icon"></i>
             <h3 className="services__title">
-              Front-end <br /> Development
+              Analytics <br />
             </h3>
           </div>
 
@@ -119,39 +104,39 @@ const Services = () => {
                 className="uil uil-times services__modal-close"
               ></i>
 
-              <h3 className="services__modal-title">Front-end Development</h3>
+              <h3 className="services__modal-title">Analytics</h3>
               <p className="services__modal-description">
-                I specialize in building high-performance, scalable, and
-                maintainable front-end applications using the latest web
-                technologies
+                Proficient in utilizing a wide array of advanced analytical
+                methods to explore, interpret, and forecast data, aiding in more
+                informed decision-making across various business domains.
               </p>
 
               <ul className="services__modal-services grid">
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    HTML, CSS, and JavaScript development
+                    Advanced Data Analysis Techniques
                   </p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Front-end framework development (React.js)
+                    Custom Analytics Solutions Development
                   </p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Responsive web/mobile design development
+                    Data Integration and Management
                   </p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Cross-browser compatibility and performance optimization
+                    Insightful Reporting and Strategic Insights
                   </p>
                 </li>
               </ul>
@@ -163,7 +148,7 @@ const Services = () => {
           <div>
             <i className="uil uil-edit services__icon"></i>
             <h3 className="services__title">
-              Back-end <br /> Development
+              Software <br /> Development
             </h3>
           </div>
 
@@ -185,17 +170,18 @@ const Services = () => {
                 className="uil uil-times services__modal-close"
               ></i>
 
-              <h3 className="services__modal-title">Back-end Development</h3>
+              <h3 className="services__modal-title">Software Development</h3>
               <p className="services__modal-description">
-                I specialize in building robust, scalable, and secure back-end
-                systems that power web applications and websites
+                I specialize in building high-performance, scalable, robust, and
+                maintainable full-stack applications using the latest web
+                technologies.
               </p>
 
               <ul className="services__modal-services grid">
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Server-side programming (Ruby)
+                    Server-side programming
                   </p>
                 </li>
 
@@ -208,15 +194,13 @@ const Services = () => {
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">
-                    Database design and management (PostgreSQL)
-                  </p>
+                  <p className="services__modal-info">Front-end Development</p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Performance optimization
+                    Database design and management
                   </p>
                 </li>
               </ul>

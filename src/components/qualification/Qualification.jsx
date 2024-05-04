@@ -11,7 +11,7 @@ const Qualification = () => {
   return (
     <section className="qualification section">
       <h2 className="section__title">Qualification</h2>
-      <span className="section__subtitle">My personal journey</span>
+      <span className="section__subtitle">Professional journey</span>
 
       <div className="qualification__container container">
         <div className="qualification__tabs">
@@ -77,9 +77,9 @@ const Qualification = () => {
 
               <div>
                 <h3 className="qualification__title">Full-stack Developer</h3>
-                <span className="qualification__subtitle">Wallingford</span>
+                <span className="qualification__subtitle">Etiprint</span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i> 2023 - Current
+                  <i className="uil uil-calendar-alt"></i> 2022 - Current
                 </div>
               </div>
             </div>
@@ -111,7 +111,7 @@ const Qualification = () => {
 
               <div>
                 <h3 className="qualification__title">
-                  Executive Project Manager
+                  IT Project Manager - Data Analytics
                 </h3>
                 <span className="qualification__subtitle">CEMEX - MX</span>
                 <div className="qualification__calender">
@@ -148,10 +148,46 @@ const Qualification = () => {
               </div>
 
               <div>
-                <h3 className="qualification__title">Lead Project Engineer</h3>
+                <h3 className="qualification__title">
+                  System Analytics Engineer
+                </h3>
                 <span className="qualification__subtitle">TERNIUM - MX</span>
                 <div className="qualification__calender">
                   <i className="uil uil-calendar-alt"></i> 2019 - 2020
+                </div>
+              </div>
+            </div>
+
+            <div className="qualification__data">
+              <div>
+                <h3 className="qualification__title">Data Analyst</h3>
+                <span className="qualification__subtitle">Sigma Alimentos</span>
+                <div className="qualification__calender">
+                  <i className="uil uil-calendar-alt"></i> 2019
+                </div>
+              </div>
+
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+            </div>
+
+            <div className="qualification__data">
+              <div></div>
+
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+
+              <div>
+                <h3 className="qualification__title">Project Engineer</h3>
+                <span className="qualification__subtitle">
+                  General Electric
+                </span>
+                <div className="qualification__calender">
+                  <i className="uil uil-calendar-alt"></i> 2018
                 </div>
               </div>
             </div>
@@ -167,7 +203,7 @@ const Qualification = () => {
             <div className="qualification__data">
               <div>
                 <h3 className="qualification__title">Full-stack Developer</h3>
-                <span className="qualification__subtitle">Wallingford</span>
+                <span className="qualification__subtitle">Etiprint</span>
                 <div className="qualification__calender">
                   <i className="uil uil-calendar-alt"></i> 2023 - Current
                 </div>
@@ -189,7 +225,7 @@ const Qualification = () => {
 
               <div>
                 <h3 className="qualification__title">
-                  Executive Project Manager
+                  IT Project Manager - Data Analytics
                 </h3>
                 <span className="qualification__subtitle">CEMEX - MX</span>
                 <div className="qualification__calender">
@@ -200,10 +236,46 @@ const Qualification = () => {
 
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Lead Project Engineer</h3>
+                <h3 className="qualification__title">
+                  System Analytics Engineer
+                </h3>
                 <span className="qualification__subtitle">TERNIUM - MX</span>
                 <div className="qualification__calender">
                   <i className="uil uil-calendar-alt"></i> 2019 - 2020
+                </div>
+              </div>
+
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+            </div>
+
+            <div className="qualification__data">
+              <div></div>
+
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+
+              <div>
+                <h3 className="qualification__title">Data Analyst</h3>
+                <span className="qualification__subtitle">Sigma</span>
+                <div className="qualification__calender">
+                  <i className="uil uil-calendar-alt"></i> 2019
+                </div>
+              </div>
+            </div>
+
+            <div className="qualification__data">
+              <div>
+                <h3 className="qualification__title">Project Engineer</h3>
+                <span className="qualification__subtitle">
+                  General Electric
+                </span>
+                <div className="qualification__calender">
+                  <i className="uil uil-calendar-alt"></i> 2018
                 </div>
               </div>
 
