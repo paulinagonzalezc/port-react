@@ -57,7 +57,7 @@ const Data = () => {
       </h1>
       <h3 className="home__subtitle">Data Scientist</h3>
       <p className="home__description">
-        Hey there! I'm a data scientist - software engineer based in Victoria,
+        Hey there! I'm a data scientist - software engineer based in Vancouver,
         Canada, and I'm very passionate and dedicated to my work.
       </p>
 

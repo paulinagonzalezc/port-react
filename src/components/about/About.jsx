@@ -1,6 +1,6 @@
 import React from 'react';
 import './about.css';
-import CV from '../../assets/Resume Paulina Gonzalez.pdf';
+// import CV from '../../assets/Resume Paulina Gonzalez.pdf';
 import Info from './Info';
 
 const About = () => {
@@ -26,7 +26,7 @@ const About = () => {
             some of my work and experience! If you like what you see and have a
             project you need coded, don’t hestiate to contact me.
           </p>
-          <a download="" href={CV} className="button button--flex blue">
+          {/* <a download="" href={CV} className="button button--flex blue">
             Download CV
             <svg
               className="button__icon"
@@ -53,7 +53,7 @@ const About = () => {
                 fill="var(--container-color)"
               ></path>
             </svg>
-          </a>
+          </a> */}
         </div>
       </div>
     </section>
