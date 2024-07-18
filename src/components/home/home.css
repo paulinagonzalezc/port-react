@@ -1,9 +1,17 @@
 .home__container {
   row-gap: 7rem;
-  background-color: lightblue;
+  /* background-color: #c6e4ed; */
   border-radius: 40px;
-  padding: 10px;
-  border: 5px solid #c6e4ed;
+  /* padding: 10px; */
+  /* border: 5px solid #c6e4ed; */
+}
+
+/* .homesec {
+  background-color: lightblue;
+} */
+
+.button_blue {
+  background-color: coral;
 }
 
 .home__content {
@@ -157,6 +165,7 @@
 
   .home__description {
     max-width: initial;
+    color: var(--title-color);
     margin-bottom: var(--mb-2-5);
   }
 
