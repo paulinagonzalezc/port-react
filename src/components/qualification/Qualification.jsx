@@ -111,7 +111,7 @@ const Qualification = () => {
 
               <div>
                 <h3 className="qualification__title">
-                  Software Engineer - Data Analytics
+                  Software Engineer in Data Analytics
                 </h3>
                 <span className="qualification__subtitle">CEMEX - MX</span>
                 <div className="qualification__calender">

@@ -10,6 +10,7 @@ import Sentiment from '../../assets/Sentiment Analysis.png';
 import Wrangling from '../../assets/data-wrangling.png';
 import SentimentIMDB from '../../assets/SentimentIMDB.png';
 import StackExchange from '../../assets/StackExchange.png';
+import SemanticSegmentation from '../../assets/semantic.png';
 
 export const projectsData = [
   {
@@ -127,6 +128,16 @@ export const projectsData = [
       'The front-end of an app to book an appointment with a doctor specialized in your needs. The user can reserve and cancel appointments.',
     demo: 'http://162.243.166.190/',
     repo: 'https://github.com/paulinagonzalezc/book-an-appointment',
+  },
+  {
+    id: 12,
+    image: SemanticSegmentation,
+    title: 'Semantic Segmentation',
+    category: 'Python',
+    description:
+      'Implemented a deep learning-based semantic segmentation model: DeepLab-v3+, specifically tailored for urban scene understanding.',
+    demo: '',
+    repo: 'https://github.com/paulinagonzalezc/computer_vision_semantic_segmentation',
   },
 ];
 

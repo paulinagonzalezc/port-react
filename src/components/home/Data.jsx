@@ -57,11 +57,11 @@ const Data = () => {
       </h1>
       <h3 className="home__subtitle">Data Scientist</h3>
       <p className="home__description">
-        Hey there! I'm a data scientist - software engineer based in Vancouver,
+        Hey there! I'm a data scientist - software engineer based in Victoria,
         Canada, and I'm very passionate and dedicated to my work.
       </p>
 
-      <a href="#contact" className="button button--flex">
+      <a href="#contact" className="button button--flex button_blue">
         Say Hello
         <svg
           className="button__icon"
