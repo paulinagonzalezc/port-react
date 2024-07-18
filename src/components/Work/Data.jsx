@@ -73,7 +73,7 @@ export const projectsData = [
     id: 6,
     image: Dictionary,
     title: 'Dictionary App',
-    category: 'Software Developmentt',
+    category: 'Software Development',
     description:
       'Users can search for a word and get definitions, synonyms, hear the pronunciation, see how it is used in a sentence and see illustrations.',
     demo: 'https://dictionaryreact-paulina.netlify.app/',
@@ -83,9 +83,9 @@ export const projectsData = [
     id: 7,
     image: Covid,
     title: 'COVID-19 Tracker App',
-    category: 'React',
+    category: 'Software Development',
     description:
-      'A web application that provides realtime data about COVID-19 cases worldwide using the disease.sh COVID-19 API.',
+      'A web application that provides real-time data about COVID-19 cases worldwide using the disease.sh COVID-19 API.',
     demo: 'https://covid-tracker-react.onrender.com/',
     repo: 'https://github.com/paulinagonzalezc/covid-tracker-react',
   },
@@ -93,9 +93,9 @@ export const projectsData = [
     id: 8,
     image: Todo,
     title: 'To-do App',
-    category: 'React',
+    category: 'Software Development',
     description:
-      'A classic to do app, users can add, save, delete and mark as complete to do tasks.',
+      'A classic to-do app, users can add, save, delete and mark as complete to do tasks.',
     demo: 'https://paulinagonzalezc.github.io/react-to-do/',
     repo: 'https://github.com/paulinagonzalezc/react-to-do',
   },
@@ -103,7 +103,7 @@ export const projectsData = [
     id: 9,
     image: Budget,
     title: 'Budget App',
-    category: 'Ruby on Rails',
+    category: 'Software Development',
     description:
       'A web application where you can manage your budget: you have a list of transactions associated with a category so that you can see how much money you have spent and on what exactly.',
     demo: 'https://rails-kbsp.onrender.com/',
@@ -113,7 +113,7 @@ export const projectsData = [
     id: 10,
     image: BookingBack,
     title: 'Booking App API',
-    category: 'Ruby on Rails',
+    category: 'Software Development',
     description:
       'The back-end of an app to book an appointment with a doctor specialized in your needs. The user can reserve and cancel appointments.',
     demo: 'http://159.223.131.191:3000/',
@@ -122,7 +122,7 @@ export const projectsData = [
   {
     id: 11,
     image: BookingFront,
-    title: 'Booking App Front',
+    title: 'Software Development',
     category: 'React',
     description:
       'The front-end of an app to book an appointment with a doctor specialized in your needs. The user can reserve and cancel appointments.',
@@ -133,7 +133,7 @@ export const projectsData = [
     id: 12,
     image: SemanticSegmentation,
     title: 'Semantic Segmentation',
-    category: 'Python',
+    category: 'Data Science',
     description:
       'Implemented a deep learning-based semantic segmentation model: DeepLab-v3+, specifically tailored for urban scene understanding.',
     demo: '',
