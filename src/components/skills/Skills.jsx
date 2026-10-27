@@ -1,22 +1,33 @@
 import React from 'react';
-import './skills.css';
-import Frontend from './Frontend';
-import Backend from './Backend';
-import Technical from './Technical';
 
-const Skills = () => {
-  return (
-    <section className="skills section skills_section" id="skills">
-      <h2 className="section__title">Skills</h2>
-      <span className="section__subtitle">My technical level</span>
+const groups = [
+  ['Programming', ['Python', 'JavaScript', 'Kotlin', 'SQL']],
+  ['Frameworks and tools', ['React.js', 'Next.js', 'Flask', 'Django', 'Node.js', 'Android Jetpack']],
+  ['Data and ML', ['TensorFlow', 'PyTorch', 'Scikit-learn', 'Pandas', 'NumPy', 'OpenCV', 'Power BI', 'Tableau']],
+  ['Cloud and AI', ['AWS', 'PostgreSQL', 'REST APIs', 'OpenAI', 'LLMs', 'Claude']],
+  ['Concepts', ['Machine learning', 'Computer vision', 'Data mining', 'Data analysis', 'Algorithms', 'Data structures']],
+];
 
-      <div className="skills__container container grid">
-        <Technical />
-        <Frontend />
-        <Backend />
+const Skills = () => (
+  <section className="s" id="skills" style={{ paddingTop: 0 }}>
+    <div className="w">
+      <div className="sh">
+        <h2>Skills</h2>
       </div>
-    </section>
-  );
-};
+      <div className="sk">
+        {groups.map(([title, items]) => (
+          <div key={title}>
+            <h3>{title}</h3>
+            <div className="chips">
+              {items.map((i) => (
+                <span key={i}>{i}</span>
+              ))}
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+);
 
 export default Skills;

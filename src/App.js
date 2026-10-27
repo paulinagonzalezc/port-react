@@ -1,32 +1,25 @@
-import './App.css';
 import Header from './components/Header/Header';
 import Home from './components/home/Home';
 import About from './components/about/About';
-import Skills from './components/skills/Skills';
-import Services from './components/services/Services';
 import Qualification from './components/qualification/Qualification';
 import Work from './components/Work/Work';
-// import Testimonials from './components/testimonials/Testimonials';
+import Skills from './components/skills/Skills';
 import Contact from './components/contact/Contact';
 import Footer from './components/Footer/Footer';
-import ScrollUp from './components/scrollup/ScrollUp';
 
 function App() {
   return (
     <>
       <Header />
-      <main className="main">
+      <main id="top">
         <Home />
         <About />
-        <Skills />
-        <Services />
         <Qualification />
         <Work />
+        <Skills />
         <Contact />
       </main>
-
       <Footer />
-      <ScrollUp />
     </>
   );
 }
